@@ -7,7 +7,7 @@
 ## Contacts
 
 - Phone, Viber: +375293211047
-- Telegram, Viber: @koteburak
+- Telegram: @koteburak
 - E-mail: kateburakit@gmail.com
 
 ---
