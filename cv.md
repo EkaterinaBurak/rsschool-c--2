@@ -7,9 +7,9 @@
 
 ### Languages
 
-English В1
-Russian
-Belarussian
+- English - В1
+- Russian - native
+- Belarussian - native
 
 Since April 5, I have been studying Front-End Development at IT-school “TeachMeSkills”. At this stage, I am familiar with working in HTML5, CSS3 (SASS, LESS), JavaScript, React. I am looking for an opportunity to have a trainee of a Front-End Developer with subsequent employment.
 
@@ -17,7 +17,7 @@ I have developed my soft skills that would be suitable for a Front-End Developer
 
 ---
 
-Experience
+## Experience
 
 April 2021 – November 2021 IT-academy – Front-End Development.
 During the training, some training projects were developed, it pushed in Github.
@@ -26,7 +26,7 @@ Communication with the customer, customer needs identification, consulting, syst
 
 ---
 
-Education
+## Education
 
 Sept 2013 – June 2014 Belarusian State University – Master’s degree of Law.
 Sept 2008 – June 2013 Belarusian State University – Law graduate.
