@@ -1,3 +1,17 @@
+# EKATERINA BURAK
+
+## Front-End Development
+
+---
+
+## Contacts
+
+- Phone, Viber: +375293211047
+- Telegram, Viber: @koteburak
+- E-mail: kateburakit@gmail.com
+
+---
+
 ## About myself
 
 ### Tools
