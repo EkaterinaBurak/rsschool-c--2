@@ -6,82 +6,90 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>CV</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style/style.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&family=Sarala&display=swap"
+    rel="stylesheet" />
 </head>
 
 <body>
   <div class="wrapper">
     <header>
-      <img src="img/photo/photo.png" alt="Personal Photo">
-      <h1>Ekaterina Burak</h1>
-      <h2>Front-End Development</h2>
+      <img class="photo" src="img/photo/photo.png" alt="Personal Photo">
+      <div class="dates">
+        <h1 class="name">Ekaterina Burak</h1>
+        <h2 class="job">Front-End Development</h2>
+      </div>
+
     </header>
     <main>
       <section class="information">
         <div class="contacts">
           <h3 class="contacts__title">Contacts</h3>
-          <ul>
-            <li>
-              <a class="contacts-phone" href="tel:#">Phone, Viber: +375293211047</a>
+          <ul class="contacts__list">
+            <li class="contacts__item">
+              <a class="contacts__link" href="tel:#">Phone, Viber: +375293211047</a>
             </li>
-            <li>
-              <a class="contacts-phone" href="tel:#">Telegram: @koteburak</a>
+            <li class="contacts__item">
+              <a class="contacts__link" href="tel:#">Telegram: @koteburak</a>
             </li>
-            <li>
-              <a class="contacts-mail" href="mailto:kateburakit@gmail.com">E-mail: kateburakit@gmail.com</a>
+            <li class="contacts__item">
+              <a class="contacts__link" href="mailto:kateburakit@gmail.com">E-mail: kateburakit@gmail.com</a>
             </li>
           </ul>
         </div>
         <div class="skills">
           <h3 class="skills__title">Tools</h3>
-          <ul>
-            <li>HTML5</li>
-            <li>CSS3 (SASS, LESS)</li>
-            <li>React</li>
-            <li>VS</li>
-            <li>Git</li>
+          <ul class="skills__list">
+            <li class="skills__item">HTML5</li>
+            <li class="skills__item">CSS3 (SASS, LESS)</li>
+            <li class="skills__item">React</li>
+            <li class="skills__item">VS</li>
+            <li class="skills__item">Git</li>
           </ul>
         </div>
         <div class="languages">
-          <h3 class="languages__tutle">Languages</h3>
-          <ul>
-            <li>English - В1</li>
-            <li>Russian - native</li>
-            <li>Belarussian - native</li>
+          <h3 class="languages__title">Languages</h3>
+          <ul class="languages__list">
+            <li class="languages__item">English - В1</li>
+            <li class="languages__item">Russian - native</li>
+            <li class="languages__item">Belarussian - native</li>
           </ul>
         </div>
+      </section>
+      <section class="code-example">
         <div class="code">
           <h3 class="code_title">Code example</h3>
           <pre><code>
-            export class Clock {
-            #getDate() {
-            const time = new Date()
-            const date = {
-            hours: time.getHours(),
-            minutes: time.getMinutes(),
-            }
-            return date
-            }
+          export class Clock {
+          #getDate() {
+          const time = new Date()
+          const date = {
+          hours: time.getHours(),
+          minutes: time.getMinutes(),
+          }
+          return date
+          }
 
-            #update() {
-            let hours = document.querySelector('.clock__hours')
-            let minutes = document.querySelector('.clock__minutes')
-            let date = this.#getDate()
+          #update() {
+          let hours = document.querySelector('.clock__hours')
+          let minutes = document.querySelector('.clock__minutes')
+          let date = this.#getDate()
 
-            hours.innerText = date.hours.toString().padStart(2, '0')
-            minutes.innerText = date.minutes.toString().padStart(2, '0')
-            }
+          hours.innerText = date.hours.toString().padStart(2, '0')
+          minutes.innerText = date.minutes.toString().padStart(2, '0')
+          }
 
-            start() {
-            this.#update()
-            let separator = document.querySelector('.clock__separator')
+          start() {
+          this.#update()
+          let separator = document.querySelector('.clock__separator')
 
-            setInterval(() => {
-            this.#update()
-            separator.classList.toggle('opacity')
-            }, 1000);
-            }
-            }</code></pre>
+          setInterval(() => {
+          this.#update()
+          separator.classList.toggle('opacity')
+          }, 1000);
+          }
+          }</code></pre>
 
         </div>
       </section>
@@ -152,6 +160,7 @@
         <p class="copyright__text">
           © 2022 Ekaterina Burak
         </p>
+      </div>
     </footer>
   </div>
 </body>

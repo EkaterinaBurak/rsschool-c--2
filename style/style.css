@@ -1,8 +1,72 @@
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
+
 
 .wrapper {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1440px;
+    width: 90%;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    border-radius: 5px;
+    color: #adaeb9;
+    box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
+        0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: chartreuse;
+}
+
+.dates {
+    margin: auto;
+    width: 66%;
+    height: 200px;
+    background-color: cadetblue;
+}
+
+.photo {
+    width: 20%;
+}
+
+.information {
+    width: 20%;
+    background-color: rgb(50, 49, 54);
+}
+
+.contacts__title,
+.skills__title,
+.languages__title {
+    padding: 10px;
+    font-size: 18px;
+    color: blanchedalmond;
+}
+
+.contacts__list,
+.skills__list,
+.languages__list {
+    padding-bottom: 20px;
+}
+
+.contacts__item,
+.skills__item,
+.languages__item {
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+.contacts__link {
+    text-decoration: none;
+}
+
+.contacts__link:hover {
+    color: blanchedalmond;
 }
