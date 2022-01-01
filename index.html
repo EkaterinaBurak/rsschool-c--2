@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
+  <title>CV</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 
@@ -32,9 +32,12 @@
             </li>
           </ul>
         </div>
-        <div class="tools">
-          <h3 class="tools__title">Tools</h3>
+        <div class="skills">
+          <h3 class="skills__title">Tools</h3>
           <ul>
+            <li>HTML5</li>
+            <li>CSS3 (SASS, LESS)</li>
+            <li>React</li>
             <li>VS</li>
             <li>Git</li>
           </ul>
@@ -46,6 +49,40 @@
             <li>Russian - native</li>
             <li>Belarussian - native</li>
           </ul>
+        </div>
+        <div class="code">
+          <h3 class="code_title">Code example</h3>
+          <pre><code>
+            export class Clock {
+            #getDate() {
+            const time = new Date()
+            const date = {
+            hours: time.getHours(),
+            minutes: time.getMinutes(),
+            }
+            return date
+            }
+
+            #update() {
+            let hours = document.querySelector('.clock__hours')
+            let minutes = document.querySelector('.clock__minutes')
+            let date = this.#getDate()
+
+            hours.innerText = date.hours.toString().padStart(2, '0')
+            minutes.innerText = date.minutes.toString().padStart(2, '0')
+            }
+
+            start() {
+            this.#update()
+            let separator = document.querySelector('.clock__separator')
+
+            setInterval(() => {
+            this.#update()
+            separator.classList.toggle('opacity')
+            }, 1000);
+            }
+            }</code></pre>
+
         </div>
       </section>
       <section class="about">
