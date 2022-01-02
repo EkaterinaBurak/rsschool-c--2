@@ -24,13 +24,13 @@
 header {
     display: flex;
     justify-content: space-between;
-    background: linear-gradient(#c8a58f, #c8a58f, #c8a58f, #c8a58f, #c8a58f, #ccae99, #ccae99, #ccae99, #ccae99, #c7a993, #caac96, #ccae99, #ccae99, #ccae99, #ccae99, #ab866a, #ccae9a)
+    /*background: linear-gradient(#c8a58f, #c8a58f, #c8a58f, #c8a58f, #c8a58f, #ccae99, #ccae99, #ccae99, #ccae99, #c7a993, #caac96, #ccae99, #ccae99, #ccae99, #ccae99, #ab866a, #ccae9a)*/
 }
 
 .dates {
     display: flex;
     flex-direction: column;
-    margin: auto;
+    margin: auto 100px;
     width: 66%;
     height: 200px;
 }
@@ -41,7 +41,7 @@ header {
 
 .name {
     font-size: 60px;
-    color: black
+    color: black;
 }
 
 .job {
@@ -68,7 +68,7 @@ header {
 .skills__title,
 .languages__title,
 .code_title {
-    padding: 20px;
+    padding: 30px;
     font-size: 18px;
     color: blanchedalmond;
 }
@@ -82,12 +82,13 @@ header {
 .contacts__item,
 .skills__item,
 .languages__item {
-    margin-left: 40px;
+    margin-left: 60px;
     font-size: 16px;
 }
 
 .contacts__link {
     text-decoration: none;
+    color: #00BFFF;
 }
 
 .contacts__link:hover {
@@ -101,7 +102,7 @@ header {
 .about__title,
 .experience__title,
 .education__title {
-    padding: 20px;
+    padding: 30px;
     font-size: 18px;
     color: black;
 }
@@ -126,7 +127,7 @@ header {
 
 .about__description,
 .experience_description {
-    padding: 0 30px;
+    padding: 0 60px;
     text-align: justify;
     font-weight: normal;
     font-size: 16px;
@@ -142,7 +143,7 @@ header {
 
 .education__item,
 .experience__item {
-    margin-left: 40px;
+    margin-left: 60px;
     margin-bottom: 10px;
 }
 
@@ -164,7 +165,7 @@ header {
 }
 
 .footer__link {
-    padding-top: 10px;
+    padding-top: 15px;
     color: white;
 }
 
