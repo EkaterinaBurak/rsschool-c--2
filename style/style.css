@@ -87,6 +87,7 @@ header {
 }
 
 .contacts__link {
+    font-size: 13px;
     text-decoration: none;
     color: #00BFFF;
 }
