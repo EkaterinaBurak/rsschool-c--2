@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 
-
 .wrapper {
     display: flex;
     flex-direction: column;
@@ -19,6 +18,8 @@
     box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
         0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
 }
+
+/**********header***************/
 
 header {
     display: flex;
@@ -48,6 +49,8 @@ header {
     color: black;
 }
 
+/****************main************/
+
 .information {
     display: inline-flex;
     padding-bottom: 20px;
@@ -60,7 +63,6 @@ header {
     flex-direction: column;
     width: 25%;
 }
-
 
 .contacts__title,
 .skills__title,
@@ -144,23 +146,30 @@ header {
     margin-bottom: 10px;
 }
 
+/********************footer**************/
+
 .footer {
     background-color: black;
 }
 
 .footer__list {
-    display: inline-flex;
+    display: flex;
     justify-content: space-around;
     text-decoration: none;
-    background-color: blueviolet;
 }
 
 .footer__item {
+    display: inline-flex;
     text-decoration: none;
 }
 
 .footer__link {
-    text-decoration: none;
+    padding-top: 10px;
+    color: white;
+}
+
+.footer__link:hover {
+    color: burlywood;
 }
 
 .footer_copyright {
