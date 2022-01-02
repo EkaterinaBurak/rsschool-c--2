@@ -24,44 +24,43 @@
     </header>
     <main>
       <section class="information">
-        <div class="contacts">
-          <h3 class="contacts__title">Contacts</h3>
-          <ul class="contacts__list">
-            <li class="contacts__item">
-              <a class="contacts__link" href="tel:#">Phone, Viber: +375293211047</a>
-            </li>
-            <li class="contacts__item">
-              <a class="contacts__link" href="tel:#">Telegram: @koteburak</a>
-            </li>
-            <li class="contacts__item">
-              <a class="contacts__link" href="mailto:kateburakit@gmail.com">E-mail: kateburakit@gmail.com</a>
-            </li>
-          </ul>
+        <div class="information_container">
+          <div class="contacts">
+            <h3 class="contacts__title">Contacts</h3>
+            <ul class="contacts__list">
+              <li class="contacts__item">
+                <a class="contacts__link" href="tel:#">Phone, Viber: +375293211047</a>
+              </li>
+              <li class="contacts__item">
+                <a class="contacts__link" href="tel:#">Telegram: @koteburak</a>
+              </li>
+              <li class="contacts__item">
+                <a class="contacts__link" href="mailto:kateburakit@gmail.com">E-mail: kateburakit@gmail.com</a>
+              </li>
+            </ul>
+          </div>
+          <div class="skills">
+            <h3 class="skills__title">Tools</h3>
+            <ul class="skills__list">
+              <li class="skills__item">HTML5</li>
+              <li class="skills__item">CSS3 (SASS, LESS)</li>
+              <li class="skills__item">React</li>
+              <li class="skills__item">VS</li>
+              <li class="skills__item">Git</li>
+            </ul>
+          </div>
+          <div class="languages">
+            <h3 class="languages__title">Languages</h3>
+            <ul class="languages__list">
+              <li class="languages__item">English - В1</li>
+              <li class="languages__item">Russian - native</li>
+              <li class="languages__item">Belarussian - native</li>
+            </ul>
+          </div>
         </div>
-        <div class="skills">
-          <h3 class="skills__title">Tools</h3>
-          <ul class="skills__list">
-            <li class="skills__item">HTML5</li>
-            <li class="skills__item">CSS3 (SASS, LESS)</li>
-            <li class="skills__item">React</li>
-            <li class="skills__item">VS</li>
-            <li class="skills__item">Git</li>
-          </ul>
-        </div>
-        <div class="languages">
-          <h3 class="languages__title">Languages</h3>
-          <ul class="languages__list">
-            <li class="languages__item">English - В1</li>
-            <li class="languages__item">Russian - native</li>
-            <li class="languages__item">Belarussian - native</li>
-          </ul>
-        </div>
-      </section>
-      <section class="code-example">
         <div class="code">
           <h3 class="code_title">Code example</h3>
-          <pre><code>
-          export class Clock {
+          <pre><code>          export class Clock {
           #getDate() {
           const time = new Date()
           const date = {
@@ -92,10 +91,11 @@
           }</code></pre>
 
         </div>
+
       </section>
       <section class="about">
-        <h3>About myself</h3>
-        <p>
+        <h3 class="about__title">About myself</h3>
+        <p class="about__description">
           Since April 5, I have been studying Front-End Development at
           IT-school “TeachMeSkills”. At this stage, I am familiar with working
           in HTML and CSS, moved on to learning JavaScript. I am looking for
@@ -112,28 +112,30 @@
         </p>
       </section>
       <section class="experience">
-        <h3>Experience</h3>
-        <ul>
-          <li>December 2015 – Present Lawyer in Minsk Regional Bar Assosiation.</li>
+        <h3 class="experience__title">Experience</h3>
+        <ul class="experience__list">
+          <li class="experience__item">December 2015 – Present Lawyer in Minsk Regional Bar Assosiation.</li>
         </ul>
-        <p>Communication with the customer, customer needs identification, consulting, systems calculation, development
+        <p class="experience_description">Communication with the customer, customer needs identification, consulting,
+          systems calculation, development
           of law documentation, protection of clients' interests in civil and criminal cases.</p>
       </section>
       <section class="education">
-        <h3>Education</h3>
-        <ul>
-          <li>Dec 2021 - Present IT-academy – RS school:JS/FE Pre-School 2022</li>
-          <li>April 2021 – November 2021 IT-academy – Front-End Development.</li>
-          <li>Sept 2013 – June 2014 Belarusian State University – Master's degree of Law.</li>
-          <li>Sept 2008 – June 2013 Belarusian State University – Law graduate.</li>
+        <h3 class="education__title">Education</h3>
+        <ul class="education__list">
+          <li class="education__item">Dec 2021 - Present IT-academy – RS school:JS/FE Pre-School 2022</li>
+          <li class="education__item">April 2021 – November 2021 IT-academy – Front-End Development.</li>
+          <li class="education__item">Sept 2013 – June 2014 Belarusian State University – Master's degree of Law.</li>
+          <li class="education__item">Sept 2008 – June 2013 Belarusian State University – Law graduate.</li>
         </ul>
       </section>
     </main>
     <footer class="footer">
       <div class="footer__body">
-        <ul>
-          <li><a href="https://github.com/EkaterinaBurak" class="contact-links__link" target="_blank">Github</a></li>
-          <li><a href="https://rs.school/js/" class="contact-links__link" target="_blank">
+        <ul class="footer__list">
+          <li class="footer__item"><a class="footer__link" href="https://github.com/EkaterinaBurak"
+              class="contact-links__link" target="_blank">Github</a></li>
+          <li class="footer__item"><a class="footer__link" href="https://rs.school/js/" target="_blank">
               <svg class="rsschool" width="80" height="29" viewBox="0 0 80 29" fill="none"
                 xmlns="http://www.w3.org/2000/svg">
                 <path
