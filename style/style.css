@@ -49,6 +49,40 @@ header {
     color: black;
 }
 
+.nav {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    height: 65px;
+    padding: 24px 12% 24px;
+    background-color: #ffffff;
+    border: 1px solid #e6e6e6;
+}
+
+.nav__body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav__item {
+    display: flex;
+    justify-content: space-between;
+    width: 410px;
+}
+
+.nav__link {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #48555B;
+}
+
+.nav__link:hover {
+    font-weight: 700;
+    color: #00A4E5;
+}
+
 /****************main************/
 
 .information {
@@ -87,6 +121,7 @@ header {
 }
 
 .contacts__link {
+    font-size: 13px;
     text-decoration: none;
     color: #00BFFF;
 }
@@ -101,7 +136,8 @@ header {
 
 .about__title,
 .experience__title,
-.education__title {
+.education__title,
+.projects__title {
     padding: 30px;
     font-size: 18px;
     color: black;
@@ -126,7 +162,8 @@ header {
 }
 
 .about__description,
-.experience_description {
+.experience_description,
+.project__link {
     padding: 0 60px;
     text-align: justify;
     font-weight: normal;
@@ -137,14 +174,25 @@ header {
 }
 
 .experience__list,
-.education__list {
+.education__list,
+.project__list {
     color: #262829;
 }
 
 .education__item,
-.experience__item {
+.experience__item,
+.project__item {
     margin-left: 60px;
     margin-bottom: 10px;
+}
+
+#projects {
+    display: flex;
+    flex-direction: column;
+}
+
+.project__link {
+    text-decoration: none;
 }
 
 /********************footer**************/
