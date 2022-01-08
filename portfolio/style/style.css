@@ -1,8 +1,19 @@
 @import"reset.css";
 
-body {
-    font-family: 'Inter',
+/* font-family: 'Inter',
         sans-serif;
     font-family: 'Merriweather',
-        serif;
+        serif; */
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1440px;
+    width: 100%;
+}
+
+header {
+    height: 90px;
 }
