@@ -14,6 +14,14 @@
     width: 100%;
 }
 
-header {
+.header {
     height: 90px;
+}
+
+.header__logo {
+    background-color: blue;
+}
+
+.header__icon {
+    background-color: coral;
 }

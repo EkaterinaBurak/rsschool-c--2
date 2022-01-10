@@ -17,7 +17,7 @@
     <div class="wrapper">
         <header class="header">
             <nav>
-                <a class="header__logo" href="#"><svg class="icon">
+                <a class="header__logo" href="#"><svg class="header__icon">
                         <use xlink:href="./assets/svg/sprite.svg#logo"></use>
                     </svg></a>
                 <ul>
@@ -43,26 +43,31 @@
                 <div class="skills__container">
                     <div class="skills__cards">
                         <div class="skills__card skills__card--photo">
-                            <a class="skills__card-link" href="#"><svg class="skills__card-img"></svg>
-                            </a>
+                            <svg class="skills__card-img">
+                                <use xlink:href="./assets/svg/sprite.svg#camera"></use>
+                            </svg>
+
                             <h3 class="skills__card-title">Digital photography</h3>
                             <p class=skills__card-description>High-quality photos in the studio and on the nature</p>
                         </div>
                         <div class="skills__card skills__card--video">
-                            <a class="skills__card-link" href="#"><svg class="skills__card-img"></svg>
-                            </a>
+                            <svg class="skills__card-img">
+                                <use xlink:href="./assets/svg/sprite.svg#video"></use>
+                            </svg>
                             <h3 class="skills__card-title">Video shooting</h3>
                             <p class=skills__card-description>Capture your moments so that they always stay with you</p>
                         </div>
                         <div class="skills__card skills__card--photo">
-                            <a class="skills__card-link" href="#"><svg class="skills__card-img"></svg>
-                            </a>
+                            <svg class="skills__card-img">
+                                <use xlink:href="./assets/svg/sprite.svg#retouch"></use>
+                            </svg>
                             <h3 class="skills__card-title">Retouch</h3>
                             <p class=skills__card-description>I strive to make photography surpass reality</p>
                         </div>
                         <div class="skills__card skills__card--audio">
-                            <a class="skills__card-link" href="#"><svg class="skills__card-img"></svg>
-                            </a>
+                            <svg class="skills__card-img">
+                                <use xlink:href="./assets/svg/sprite.svg#mic"></use>
+                            </svg>
                             <h3 class="skills__card-title">Audio</h3>
                             <p class=skills__card-description>Professional sounds recording for video, advertising,
                                 portfolio</p>
@@ -70,9 +75,68 @@
                     </div>
                 </div>
             </section>
-            <section class="portfolio"></section>
-            <section class="video"></section>
-            <section class="price"></section>
+            <section class="portfolio">
+                <h2 class="portfolio__title">Portfolio</h2>
+                <div class="season_buttons">
+                    <button class="season_buttons season_buttons--winter">Winter</button>
+                    <button class="season_buttons season_buttons--spring">Spring</button>
+                    <button class="season_buttons season_buttons--summer"> Summer</button>
+                    <button class="season_buttons season_buttons--autumn">Autumn</button>
+                </div>
+                <div class="portfolio__cards">
+                    <div class="portfolio__card portfolio__card--love"></div>
+                    <div class="portfolio__card portfolio__card--horse"></div>
+                    <div class="portfolio__card portfolio__card--child"></div>
+                    <div class="portfolio__card portfolio__card--forest"></div>
+                    <div class="portfolio__card portfolio__card--couple"></div>
+                    <div class="portfolio__card portfolio__card--leaves"></div>
+                </div>
+            </section>
+            <section class="video">
+                <h2 class="video__title">Video</h2>
+                <div class="video_player"></div>
+            </section>
+            <section class="price">
+                <h2 class="price__title">Price</h2>
+                <div class="price__cards">
+                    <div class="price__card price__card--standart">
+                        <h4 class="price__card-title">Standart</h4>
+                        <p class="price__card-price">500 $</p>
+                        <ul class="price__card-list">
+                            <li class="price__card-team">One location</li>
+                            <li class="price__card-team">120 photos in color</li>
+                            <li class="price__card-team">12 photos in retouch</li>
+                            <li class="price__card-team">Readiness 2-3 weeks</li>
+                            <li class="price__card-team">Make up, visage</li>
+                        </ul>
+                        <button class="price__card-button">Order shooting</button>
+                    </div>
+                    <div class="price__card price__card--premium">
+                        <h4 class="price__card-title">Premium</h4>
+                        <p class="price__card-price">700 $</p>
+                        <ul class="price__card-list">
+                            <li class="price__card-team">One or two locations</li>
+                            <li class="price__card-team">200 photos in color</li>
+                            <li class="price__card-team">20 photos in retouch</li>
+                            <li class="price__card-team">Readiness 1-2 weeks</li>
+                            <li class="price__card-team">Make up, visage</li>
+                        </ul>
+                        <button class="price__card-button">Order shooting</button>
+                    </div>
+                    <div class="price__card price__card--gold">
+                        <h4 class="price__card-title">Gold</h4>
+                        <p class="price__card-price">1000 $</p>
+                        <ul class="price__card-list">
+                            <li class="price__card-team">Three locations or more</li>
+                            <li class="price__card-team">300 photos in color</li>
+                            <li class="price__card-team">50 photos in retouch</li>
+                            <li class="price__card-team">Readiness 1 week</li>
+                            <li class="price__card-team">Make up, visage, hairstyle</li>
+                        </ul>
+                        <button class="price__card-button">Order shooting</button>
+                    </div>
+                </div>
+            </section>
             <section class="contacts"></section>
         </main>
         <footer class="footer"></footer>
