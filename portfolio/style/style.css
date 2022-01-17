@@ -34,10 +34,14 @@
     margin: 20px;
     width: 50px;
     height: 50px;
-    background-image: url(../assets/svg/icons/logo.svg);
+    background: url(../assets/svg/icons/logo.svg);
     background-size: contain;
     background-repeat: no-repeat;
     transition: 0.3s;
+}
+
+.header__logo:hover {
+    filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%) contrast(87%);
 }
 
 
@@ -228,10 +232,8 @@
 
 .skills__cards {
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    padding-left: 20px;
-    padding-right: 20px;
+    gap: 40px;
+    padding-left: 32px;
 }
 
 .skills__card {
@@ -241,25 +243,30 @@
 
 .skills__card--photo {
     background: url(../assets/svg/icons/camera.svg) top center no-repeat;
+    background-size: 62px 50px;
     fill: #BDAE82;
 }
 
 .skills__card--video {
     background: url(../assets/svg/icons/video.svg) top center no-repeat;
+    background-size: 62px 50px;
     fill: #BDAE82;
 }
 
 .skills__card--retouch {
     background: url(../assets/svg/icons/image.svg) top center no-repeat;
+    background-size: 62px 50px;
     fill: #BDAE82;
 }
 
 .skills__card--audio {
     background: url(../assets/svg/icons/audio.svg) top center no-repeat;
+    background-size: 62px 50px;
     fill: #BDAE82;
 }
 
 .skills__card-title {
+    width: 280px;
     margin-top: 100px;
     margin-bottom: 20px;
     font-family: "Inter";
@@ -273,6 +280,8 @@
 
 .skills__card-description {
     width: 280px;
+    padding-left: 20px;
+    padding-right: 20px;
     font-family: " Inter";
     font-style: normal;
     font-weight: normal;
@@ -526,4 +535,36 @@ input {
     letter-spacing: 0em;
     text-align: left;
     color: #FFFFFF;
+}
+
+.social-icons {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 188px;
+    height: 50px;
+}
+
+.icon {
+    height: 32px;
+    width: 32px;
+    left: 0px;
+    top: 9px;
+    border-radius: 0px;
+    fill: #FFFFFF
+}
+
+.icon_inst {
+    background: url(../assets/svg/social/inst.svg);
+}
+
+.icon_fb {
+    background: url(../assets/svg/social/fb.svg)
+}
+
+.icon_tw {
+    background: url(../assets/svg/social/tw.svg);
+}
+
+.icon_pinterest {
+    background: url(../assets/svg/social/pinterest.svg);
 }
