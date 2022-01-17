@@ -54,19 +54,24 @@
     justify-content: space-between;
 }
 
+
+
 .nav__link {
     padding: 0 20px;
+    text-decoration: none;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 50px;
+    text-decoration: non;
     color: white;
 }
 
 .nav__link:hover {
     color: #BDAE82;
 }
+
 
 .language__list {
     display: flex;
