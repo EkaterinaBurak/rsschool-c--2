@@ -44,8 +44,6 @@
     filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%) contrast(87%);
 }
 
-
-
 .nav__bar {
     display: inline-flex;
     margin-right: 20px;
@@ -550,7 +548,14 @@ input {
     left: 0px;
     top: 9px;
     border-radius: 0px;
-    fill: #FFFFFF
+    fill: #FFFFFF;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: 0.3s;
+}
+
+.icon:hover {
+    filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%) contrast(87%);
 }
 
 .icon_inst {
