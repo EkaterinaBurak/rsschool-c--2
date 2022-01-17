@@ -423,6 +423,7 @@
 }
 
 .price__card-description {
+    display: block;
     font-family: Inter;
     font-size: 18px;
     font-style: normal;
